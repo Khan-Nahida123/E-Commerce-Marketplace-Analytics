@@ -146,15 +146,7 @@ CREATE TABLE category_translation (
     product_category_name VARCHAR(100) PRIMARY KEY,
     product_category_name_english VARCHAR(100)
 );
-LOAD DATA LOCAL INFILE
-'C:/Users/khan saeedullah/Desktop/customers_clean.csv'
-INTO TABLE customers
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
 
-SET GLOBAL local_infile = 1;
 
 
 

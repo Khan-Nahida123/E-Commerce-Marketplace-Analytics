@@ -112,6 +112,7 @@ The analysis answers practical marketplace questions:
 - Jupyter Notebook  
 
 ---
+## Project Structure
 
 ```
 sql-ecommerce-analytics/
@@ -162,5 +163,5 @@ Khan Nahida
 
 End-to-end data analytics portfolio project.
 
-## Project Structure
+
 
